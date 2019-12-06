@@ -1,4 +1,5 @@
-/* BASE_230 | HOOK | 250_COR | CSWAFTER - 2017-07-25 */
+/* BASE_230 | HOOK | 250_COR | CSWAFTER - 2019-11-21 */
+// BASE_230 | HOOK | 250_COR | CSWAFTER - 2017-07-25 */
 
 // -------------------------------------
 // EXTEND
@@ -20,4 +21,8 @@
 			@extend %hook-cswafter-hookwrap !optional;
 		}
 
+	}
+
+	.hide-hook-cswafter .hook-cswafter {
+		display: none;
 	}

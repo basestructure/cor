@@ -1,4 +1,4 @@
-/* MODEL | COR | STYLE - 2019-11-21 5:03 PM */
+/* MODEL | COR | STYLE - 2018-07-27 8:27 AM */
 /*
 	Theme Name: COR
 	Theme URI: http://layout.basestructure.com/cor
@@ -1678,11 +1678,6 @@ ul.half-grid, ul.third-grid, ul.fourth-grid, ul.fifth-grid, ul.sixth-grid, ul.ei
     margin-top: 1rem;
     max-width: none; } }
 
-/* BASE_230 | LAYOUT | 250_COR | INNER-OVERRIDE - 2018-11-22 */
-body.fullwidth .site-inner, body.fullwidth-siteinner .site-inner, body.fullwidth-csw .content-sidebar-wrap, body.fullwidth-content .content, body.fullwidth-sidebarprimary .sidebar-primary, body.fullwidth-sidebarsecondary .sidebar-secondary {
-  max-width: none;
-  width: 100%; }
-
 /* BASE_230 | LAYOUT | 250_COR | FOOTER - 2017-07-24 */
 .site-footer > .wrap {
   padding-top: 1rem; }
@@ -1969,20 +1964,14 @@ body.midwidth-center .content-sidebar-wrap {
 /* BASE_230 | HOOK | 250_COR | CSWBEFORE - 2019-11-21 */
 .hook-cswbefore .hook-wrap {
   padding-right: 1rem;
-  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 1rem; }
 
-.hide-hook-cswbefore .hook-cswbefore {
-  display: none; }
-
-/* BASE_230 | HOOK | 250_COR | CSWAFTER - 2019-11-21 */
+/* BASE_230 | HOOK | 250_COR | CSWAFTER - 2017-07-25 */
 .hook-cswafter .hook-wrap {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem; }
-
-.hide-hook-cswafter .hook-cswafter {
-  display: none; }
 
 /* BASE_230 | COMMENT | 230_MODEL-BASICSETUP | ENTRYCOMMENTS - 2017-04-19 */
 .entry-comments, .comment-respond {
@@ -2315,7 +2304,7 @@ body.midwidth-center .content-sidebar-wrap {
   font-size: 0.75rem; }
 
 /* BASE_226 | MODULE | 227_CORMAIN | IMPORTANT - 2016-04-08 */
-/* BASE_230 | PLUGIN | 262_COR | SWP-SOCIALTOOLBAR - 2018-07-27 */
+/* BASE_230 | PLUGIN | 261_COR | SWP-SOCIALTOOLBAR - 2018-06-14 */
 #at15pf, #at16pf {
   display: none !important; }
 
@@ -2625,12 +2614,6 @@ body.midwidth-center .content-sidebar-wrap {
 
 .item-icon.icon-soundcloud {
   background-position: -630px -18px; }
-
-.item-icon.icon-itunes {
-  background-position: -629px -94px; }
-
-.item-icon.icon-podcast {
-  background-position: -628px -55px; }
 
 .item-icon-bar {
   background-image: url("images/sprites.png");
@@ -3144,17 +3127,17 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   .hide-smlbelowdown {
     display: none; } }
 
-/* BASE_230 | ITEM | 2801_COR | ITEM-CTA - 2019-02-01 */
-.cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-book2paperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-book2ebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-book2audio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-merchandise, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle, .cta-lulu, .cta-teespring {
+/* BASE_230 | ITEM | 250_COR | ITEM-CTA - 2018-02-28 */
+.cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-book2paperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-book2ebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-book2audio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle, .cta-lulu {
   background-image: url("images/sprites.png");
   background-repeat: no-repeat;
   display: block; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-book2paperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-book2ebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-book2audio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-merchandise, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle, .cta-lulu, .cta-teespring {
+    .cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-book2paperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-book2ebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-book2audio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle, .cta-lulu {
       background-image: url("images/sprites2x.png");
       background-size: 1000px; } }
 
-.cta-box, .cta-coachingphone, .cta-coachingemail, .cta-bookpaperback, .cta-book2paperback, .cta-bookebook, .cta-book2ebook, .cta-bookaudio, .cta-book2audio, .cta-merchandise, .cta-bookcombined, .cta-bookuniversal, .cta-donate {
+.cta-box, .cta-coachingphone, .cta-coachingemail, .cta-bookpaperback, .cta-book2paperback, .cta-bookebook, .cta-book2ebook, .cta-bookaudio, .cta-book2audio, .cta-bookcombined, .cta-bookuniversal, .cta-donate {
   width: 100px;
   height: 100px; }
 
@@ -3218,9 +3201,6 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   background-position: -486px -463px;
   width: 120px;
   height: 241px; }
-
-.cta-merchandise {
-  background-position: -895px -140px; }
 
 .cta-bookcombined {
   background-position: -785px -265px; }
@@ -3288,11 +3268,6 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   background-position: -151px -499px;
   width: 50px;
   height: 35px; }
-
-.cta-teespring {
-  background-position: -796px -99px;
-  width: 121px;
-  height: 19px; }
 
 .cta-triangle {
   width: 0;
@@ -3407,7 +3382,7 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc; }
 
-/* BASE_230 | RESPONSIVE | 2801_COR | MEDIA - 2019-03-04 */
+/* BASE_230 | RESPONSIVE | 250_COR | MEDIA - 2018-03-03 */
 @media only screen and (max-width: 48rem) {
   .item-cta.media .media-img, .item-cta.media .media-right {
     float: none;
@@ -3420,12 +3395,12 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
     text-align: center; } }
 
 @media only screen and (max-width: 26.563rem) {
-  .item-cta .cta-amazon, .item-cta .cta-amazon-large, .item-cta .cta-paypal, .item-cta .cta-audible, .item-cta .cta-audible-large, .item-cta .cta-ibooks, .item-cta .cta-itunes, .item-cta .cta-kindle, .item-cta .cta-lulu, .item-cta .cta-teespring {
+  .item-cta .cta-amazon, .item-cta .cta-amazon-large, .item-cta .cta-paypal, .item-cta .cta-audible, .item-cta .cta-audible-large, .item-cta .cta-ibooks, .item-cta .cta-itunes, .item-cta .cta-kindle, .item-cta .cta-lulu {
     margin-right: auto;
     margin-left: auto; } }
 
 @media only screen and (max-width: 26.563rem) {
-  .item-cta-hide, .item-cta .cta-merchandise, .item-cta .cta-bookpaperback, .item-cta .cta-book2paperback, .item-cta .cta-bookebook, .item-cta .cta-book2ebook, .item-cta .cta-bookaudio, .item-cta .cta-book2audio, .item-cta .cta-bookcombined, .item-cta .cta-book2combined {
+  .item-cta-hide, .item-cta .cta-bookpaperback, .item-cta .cta-book2paperback, .item-cta .cta-bookebook, .item-cta .cta-book2ebook, .item-cta .cta-bookaudio, .item-cta .cta-book2audio, .item-cta .cta-bookcombined, .item-cta .cta-book2combined {
     display: none; } }
 
 @media only screen and (max-width: 26.563rem) {

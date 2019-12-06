@@ -1,4 +1,5 @@
-/* MODEL | COR | STYLE - 2019-09-15 7:46 AM */
+/* MODEL | COR | STYLE - 2019-11-21 5:03 PM */
+// MODEL | COR | STYLE - 2018-07-27 8:29 AM */
 
 // requires CodeKit
 // requires Framework "base-theme"
@@ -195,7 +196,7 @@
 						@import 	"layout/250_cor/header";
 			//@import 	"layout/250_model-basicsetup/header-override";
 						@import 	"layout/250_cor/inner";
-			//@import 	"layout/250_model-basicsetup/inner-override";
+						@import 	"layout/250_cor/inner-override";
 						@import 	"layout/250_cor/footer";
 			//@import 	"layout/250_model-basicsetup/footer-override";
 
